@@ -1,0 +1,118 @@
+@charset "utf-8";
+html, ul, li, dl, dt, dd, ol, th, td, form, h1, h2, h3, h4, h5, h6, img, p {margin:0;padding:0;border:none;font-style:normal;}
+ul, li {list-style-type:none;}
+.m:after {content: " ";display: block;clear: both;height: 0;line-height: 0;visibility: hidden;}
+body {margin: 0px;padding: 0px;}
+a {color:#000;text-decoration:none;}
+a:hover {color:red;text-decoration:none;}
+.left {float:left}
+.right {float:right}
+.Outerframe {width: 1280px;margin-right: auto;margin-left: auto;background-image: url(../../images/picture_01.jpg);background-repeat: no-repeat;background-position: top;}
+.Internal {width: 1024px;margin-right: auto;margin-left: auto;}
+.menu {background-image: url(../../images/cd_05.png);background-repeat: no-repeat;height: 118px;}
+.logo {height: 100px;padding-top: 14px;}
+.Early {margin-right: 25px;margin-left: 25px;margin-top: 20px;}
+.Early dd {float: left;width: 60px;}
+.Early dt {font-size: 12px;}
+.Thecontentof {background-image: url(../../images/Back_11.png);background-repeat: repeat-y;}
+.Below {background-image: url(../../images/Back_14.png);background-repeat: no-repeat;height: 30px;}
+.Middle {width: 990px;margin-right: auto;margin-left: auto;}
+
+/*导航*/
+.menua {height: 33px;padding-top: 6px;}
+.menua ul{padding: 0px;margin-top: 0px;margin-right: 0px;margin-bottom: 0px;margin-left: 13px;}
+.menua ul li{list-style-type: none;padding: 0px;float: left;float: left;line-height: 39px;font-family: "微软雅黑";font-weight: bold;color: #FFFFFF;margin: 0px;}
+.menua ul li a {display:block;text-align:center;font-weight:bold;line-height:39px;color:#FFFFFF;font-family: "微软雅黑";font-size: 15px;text-decoration: none;margin: 0px;padding: 0px;width: 120px;
+}
+.menua ul li a:hover{color: #FFFFFF;margin: 0px;padding: 0px;background-image: url(../../images/navhover.png);background-repeat: no-repeat;background-position: bottom;}
+
+
+
+
+/*首页-左边*/
+.lfte {float: left;width: 747px;}
+.banner {height: 234px;}
+.dayforecast {margin-top: 5px;border: 1px solid #98cbf5;background-image: url(../../images/hpicture_35.png);background-repeat: repeat-x;}
+.Title {height: 25px;background-image: url(../../images/Fback_03.png);width: 111px;margin-top: 4px;margin-left: 2px;font-size: 13px;font-weight: bold;color: #FFFFFF;line-height: 25px;text-align: center;}
+.Theedges {border: 1px solid #0099FF;height: 160px;width: 25px;}
+.Theda {margin-top: 5px;margin-bottom: 5px;}
+.Theda ul {margin-left: 5px;}
+.Theda li {float: left;margin-right: 1px;margin-left: 1px;}
+.Date {background-image: url(../../images/ture_21.jpg);background-repeat: no-repeat;width: 103px;font-family: "微软雅黑";font-size: 12px;font-weight: bold;color: #040000;line-height: 28px;height: 28px;text-align: center;}
+.Live {background-image: url(../../images/ture_25.jpg);background-repeat: repeat-x;height: 127px;width: 101px;border-right-width: 1px;border-left-width: 1px;border-right-style: solid;border-left-style: solid;border-right-color: #a7cde8;border-left-color: #a7cde8;border-bottom-width: 1px;border-bottom-style: solid;border-bottom-color: #a7cde8;font-family: "微软雅黑";font-size: 12px;font-weight: bold;}
+.Humidity {margin-top: 8px;font-size: 12px;}
+.Cassette {height: 25px;margin-top: 3px;margin-left: 2px;color: #FFFFFF;}
+.Cassette h1 {background-image: url(../../images/Button_08.png);background-repeat: no-repeat;height: 25px;width: 51px;float: left;margin-right: 2px;font-size: 13px;font-family: "微软雅黑";font-weight: bold;text-align: center;line-height: 25px;}
+.Cassette h2 {background-image: url(../../images/Button_03.png);background-repeat: no-repeat;height: 25px;width: 81px;float: left;font-family: "微软雅黑";font-size: 13px;font-weight: bold;color: #FFFFFF;line-height: 25px;text-align: center;}
+.Cassette h3 {
+background-image: url(../../images/Button_05.png);background-repeat: no-repeat;float: left;height: 25px;width: 53px;margin-left: 2px;font-family: "微软雅黑";font-size: 13px;font-weight: bold;text-align: center;line-height: 25px;}
+
+
+/*复制-复制*/
+.Columnframe {height: 25px;margin-top: 8px;margin-right: 8px;margin-left: 8px;}
+.liebk {border: 1px solid #0099FF;height: 20px;width: 100px;}
+.bu2{cursor:pointer;height:20px;width:44px;border:0;background-image: url(../../images/anniu_12.jpg);background-repeat: no-repeat;font-size: 12px;color: #FFFFFF;}
+.bu3{cursor:pointer;height:20px;width:44px;border:0;background-image: url(../../images/anniu_14.jpg);background-repeat: no-repeat;font-size: 12px;color: #FFFFFF;}
+
+
+/*首页-右边*/
+.Right {float: right;width: 238px;}
+.Temperature {height: 139px;background-color: #ebf6ff;text-align: center;border-top-width: 1px;border-top-style: solid;border-top-color: #98cbf5;}
+.Thebottom {background-image: url(../../images/picture_03.jpg);background-repeat: no-repeat;background-position: bottom;}
+.about {border: 1px solid #dedcdf;font-size: 12px;}
+.Signin {background-image: url(../../images/atu_17.png);background-repeat: no-repeat;height: 66px;width: 228px;margin-top: 4px;margin-left: 4px;}
+.Apage {margin-top: 10px;margin-right: 5px;margin-left: 5px;}
+.Apage h6 {font-size: 12px;font-weight: normal;line-height: 22px;margin-top: 5px;}
+.Fig {margin-top: 5px;}
+.Style {background-color: #FFFFFF;height: 15px;width: 120px;border: 1px solid #c8cabd;}
+.Copyright {height: 84px;font-size: 12px;line-height: 84px;color: #012f52;text-align: center;}
+
+
+/*关于我们*/
+.Tcontentarea {margin: 10px;font-size: 12px;font-weight: normal;color: #333333;line-height: 22px;}
+
+
+
+/*产品展示*/
+.Tcontentarea ul {margin-top: 20px;margin-left: 20px;}
+.Tcontentarea li {border-bottom-width: 1px;border-bottom-style: dashed;border-bottom-color: #999999;line-height: 25px;list-style-type: none;list-style-image: url(../../images/s_03.png);}
+
+
+
+
+
+/*气象科普*/
+.M-lfte {float: left;width: 370px;}
+.b-Questions {background-image: url(../../images/kui_03.jpg);background-repeat: no-repeat;height: 32px;line-height: 32px;font-family: "微软雅黑";font-weight: bold;color: #004289;font-size: 13px;padding-left: 30px;}
+.n-In {background-image: url(../../images/kui_06.jpg);background-repeat: repeat-x;border-right-width: 1px;border-bottom-width: 1px;border-left-width: 1px;border-right-style: solid;border-bottom-style: solid;border-left-style: solid;border-right-color: #dadada;border-bottom-color: #dadada;border-left-color: #dadada;}
+.Meteorological {font-size: 12px;}
+.Upperpart dd {float: left;height: 92px;width: 117px;}
+.Upperpart dl {margin-right: 5px;margin-bottom: 5px;margin-left: 5px;padding-top: 5px;}
+.Upperpart dt {float: left;padding-left: 10px;}
+.Upperpart li {line-height: 23px;list-style-image: url(../../images/s_03.png);list-style-type: none;}
+.Lisype ul {padding-left: 20px;margin-top: 3px;}
+.Lisype li {line-height: 23px;list-style-image: url(../../images/s_03.png);list-style-type: none;}
+.m-Right {float: right;}
+.Humty {margin-bottom: 5px;}
+
+
+
+
+
+/*专业服务*/
+.Figure {background-image: url(../../images/Back.jpg);background-repeat: no-repeat;height: 886px;width: 1280px;margin-right: auto;margin-left: auto;}
+.Figure-logo {width: 580px;margin-right: auto;margin-left: auto;padding-top: 206px;}
+.f-logo {height: 98px;}
+.Tpicre {background-image: url(../../images/er_03.png);background-repeat: no-repeat;height: 245px;width: 445px;margin-right: auto;margin-left: auto;margin-top: 30px;}
+.Version {font-size: 12px;line-height: 50px;text-align: center;height: 50px;}
+.kuw {line-height: 30px;height: 30px;border-top-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-left-width: 0px;font-size: 14px;color: #666666;background-color: #C6E8F1;}
+.bu1{cursor:pointer;height:35px;width:120px;border:0;background-image: url(../../images/op_06.png);background-repeat: no-repeat;}
+
+
+
+/*分页*/
+#pagelist {height: 20px;margin-top: 10px;margin-right: auto;margin-bottom: 10px;margin-left: auto;padding-top: 6px;padding-right: 0px;padding-bottom: 6px;padding-left: 0px;width: 400px;}
+#pagelist ul li { float:left; border:1px solid #5d9cdf; height:20px; line-height:20px; margin:0px 2px;}
+#pagelist ul li a, .pageinfo { display:block; padding:0px 6px; background:#e6f2fe;}
+.pageinfo  { color:#555;}
+.current { background:#a9d2ff; display:block; padding:0px 6px; font-weight:bold;}
